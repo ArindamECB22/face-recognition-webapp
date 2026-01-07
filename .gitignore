@@ -5,9 +5,6 @@ __pycache__/
 # Virtual environment
 venv/
 
-# Model files
-model/*.pth
-
 embeddings.pt
 
 # Dataset
