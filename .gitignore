@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Model files
+model/*.pth
+
+embeddings.pt
+
+# Dataset
+dataset/
+
+# Generated output images
+static/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db

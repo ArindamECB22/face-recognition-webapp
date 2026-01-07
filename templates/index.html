@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face Recognition - Upload & Live</title>
+  <style>
+    body { font-family: Arial; background: #101010; color: white; text-align: center; }
+    h2 { color: lime; }
+    .btn { background: lime; color: black; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-weight: bold; margin: 5px; }
+    img { margin-top: 10px; border-radius: 10px; max-width: 80%; }
+  </style>
+</head>
+<body>
+  <h2>🖼️ Upload an Image for Face Recognition</h2>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button class="btn" type="submit">Upload & Recognize</button>
+  </form>
+
+  {% if result_image %}
+  <h3>Recognition Result:</h3>
+  <img src="{{ url_for('static', filename=result_image) }}">
+  {% endif %}
+
+  <hr>
+  <h2>📷 Live Camera Face Recognition</h2>
+  <a href="/live"><button class="btn">Open Live Camera</button></a>
+</body>
+</html>
