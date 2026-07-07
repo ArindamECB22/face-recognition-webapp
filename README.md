@@ -166,7 +166,7 @@ The Raspberry Pi is now ready to:
 
 ## Author
 
-**Arindam Sarma**
+**Arindam**
 
 GitHub: https://github.com/ArindamECB22
 
