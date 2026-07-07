@@ -90,8 +90,6 @@ The dataset used for training and evaluation is **not included** in this reposit
 
 ---
 
----
-
 ## Installation
 
 ### Clone the Repository
