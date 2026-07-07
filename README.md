@@ -83,6 +83,15 @@ face-recognition-webapp/
 
 ---
 
+## Dataset
+
+Our dataset consists of approximately 5,280 face images without augmentation, sourced from 50 facial video recordings of our friends. To process this data, we first utilized the OpenCV library to extract raw snapshots from the video footage. Subsequently, the Multi-task Cascaded Convolutional Networks (MTCNN) was used to detect faces and crop the images to isolate the region of interest from the extracted frames. The final processed dataset was partitioned in the ratio 80:20, 80% images allocated for training and 20% for testing.
+The dataset used for training and evaluation is **not included** in this repository due to **Size and Privacy consideration**.
+
+---
+
+---
+
 ## Installation
 
 ### Clone the Repository
